@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 24px;
+  opacity: 0;
+  transition: 1.5s ease;
+  background-color: #ba00b1;
+}
+
+.container:hover .overlay {
+  opacity:1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+a{color: aliceblue;}
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="container">
+  <img src="./images/book.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">
+      <a href="./index.html">see live</a>
+    </div>
+  </div>
+</div>
+
+</body>
+
+<!-- Mirrored from www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Sep 2022 14:31:14 GMT -->
+</html>
