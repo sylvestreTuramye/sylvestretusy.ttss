@@ -17,7 +17,7 @@ main{
 }
 .navigation{
     position: fixed;
-    width: 100%;
+    width: auto;
     top: 0%;
     height: 7rem;
     background-color:rgb(0, 0, 0);
